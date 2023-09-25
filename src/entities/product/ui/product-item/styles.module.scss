@@ -1,0 +1,44 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border: 1px solid gainsboro;
+    color: var(--color-primary);
+}
+
+.section {
+    padding: 20px;
+}
+
+.name {
+    quotes: "\00ab" "\00bb";
+}
+
+.name,
+.author
+{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 28px;
+}
+
+.image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+
+.checkBtn {
+    background: var(--color-success-btn) !important;
+}

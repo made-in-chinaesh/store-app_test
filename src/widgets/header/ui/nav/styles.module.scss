@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.link {
+    margin: 20px 30px;
+    font-size: 14px;
+    color: var(--color-primary);
+
+    &.current {
+        color: #c1b4b1;
+    }
+
+    &:hover {
+        color: #5b3a32;
+    }
+}
